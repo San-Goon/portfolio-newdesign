@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-between px-5 py-3 my-3">
-      <span className="text-xl font-bold text-green-400 border-b-4 border-green-400 md:text-2xl">
+      <span className="text-xl font-bold text-primary border-b-4 border-primary md:text-2xl">
         {activeItem}
       </span>
       <div className="flex space-x-5 text-lg">

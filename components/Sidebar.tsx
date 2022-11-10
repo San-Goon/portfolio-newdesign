@@ -32,7 +32,7 @@ const Sidebar = () => {
         <GiTie className="w-6 h-6" />
         이력서 다운로드
       </a>
-      <div className="flex justify-around w-9/12 mx-auto my-5 text-green-500 md:w-full">
+      <div className="flex justify-around w-9/12 mx-auto my-5 text-primary-500 md:w-full">
         <a
           href="https://github.com/San-Goon"
           target="_blank"
@@ -60,13 +60,13 @@ const Sidebar = () => {
         <p className="my-2">010-6611-2574</p>
       </div>
       <button
-        className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green-400 to-blue-400"
+        className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-primary to-blue-400"
         onClick={onClickEmail}
       >
         Email me
       </button>
       <button
-        className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green-400 to-blue-400"
+        className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-primary to-blue-400"
         onClick={onClickChangeTheme}
       >
         {theme === 'light' ? '다크 모드' : '라이트 모드'}
