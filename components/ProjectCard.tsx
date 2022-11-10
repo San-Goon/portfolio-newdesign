@@ -16,20 +16,21 @@ ProjectType) => {
     <div>
       <p className="my-2 text-center">{name}</p>
       <Image
-        src=""
+        src={image_path}
         alt={name}
         className="cursor-pointer"
         width="300"
         height="150"
+        layout="responsive"
       />
-      <div className="flex justify-center my-4 space-x-3">
+      <div className="flex justify-around my-4">
         <a
           href={notion_url}
           target="_blank"
           rel="noreferrer noopener"
-          className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
+          className="flex flex-col items-center bg-gray-200 dark:bg-dark-200"
         >
-          <SiNotion />
+          <SiNotion className="w-6 h-6" />
           <span>Detail</span>
         </a>
         {github_url ? (
@@ -37,9 +38,9 @@ ProjectType) => {
             href={github_url}
             target="_blank"
             rel="noreferrer noopener"
-            className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
+            className="flex flex-col items-center bg-gray-200 dark:bg-dark-200"
           >
-            <AiFillGithub />
+            <AiFillGithub className="w-6 h-6" />
             <span>Github</span>
           </a>
         ) : null}
@@ -47,9 +48,9 @@ ProjectType) => {
           href={deployed_url}
           target="_blank"
           rel="noreferrer noopener"
-          className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
+          className="flex flex-col items-center bg-gray-200 dark:bg-dark-200"
         >
-          <AiFillProject />
+          <AiFillProject className="w-6 h-6" />
           <span>Demo</span>
         </a>
       </div>

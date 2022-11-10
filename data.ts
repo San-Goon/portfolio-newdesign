@@ -34,116 +34,103 @@ export const services: ServiceType[] = [
   },
 ];
 
-export const skills: SkillType[] = [
+export const mainSkills: SkillType[] = [
   {
-    name: 'React',
-    level: '100%',
-    Icon: 'Icon',
+    name: 'React.js',
+    src: '/images/react.png',
   },
   {
-    name: 'React',
-    level: '100%',
-    Icon: 'Icon',
+    name: 'Next.js',
+    src: '/images/nextjs.png',
   },
   {
-    name: 'React',
-    level: '100%',
-    Icon: 'Icon',
+    name: 'TypeScript',
+    src: '/images/typescript.png',
   },
   {
-    name: 'React',
-    level: '100%',
-    Icon: 'Icon',
+    name: 'Redux',
+    src: '/images/redux.png',
   },
   {
-    name: 'React',
-    level: '100%',
-    Icon: 'Icon',
+    name: 'React Query',
+    src: '/images/reactquery.png',
   },
   {
-    name: 'React',
-    level: '100%',
-    Icon: 'Icon',
-  },
-  {
-    name: 'React',
-    level: '100%',
-    Icon: 'Icon',
+    name: 'Git',
+    src: '/images/slack.png',
   },
 ];
 
-export const tools: SkillType[] = [
+export const experiencedSkills: SkillType[] = [
   {
-    name: 'React',
-    level: '10%',
-    Icon: 'Icon',
+    name: 'SWR',
+    src: '/images/slack.png',
   },
   {
-    name: 'React',
-    level: '100%',
-    Icon: 'Icon',
+    name: 'GraphQL',
+    src: '/images/graphql.png',
   },
   {
-    name: 'React',
-    level: '100%',
-    Icon: 'Icon',
+    name: 'Electron',
+    src: '/images/electron.png',
   },
   {
-    name: 'React',
-    level: '100%',
-    Icon: 'Icon',
+    name: 'Chakra-UI',
+    src: '/images/chakra.png',
   },
   {
-    name: 'React',
-    level: '100%',
-    Icon: 'Icon',
+    name: 'Material-UI',
+    src: '/images/slack.png',
   },
   {
-    name: 'React',
-    level: '100%',
-    Icon: 'Icon',
+    name: 'Tailwind CSS',
+    src: '/images/tailwind.png',
   },
   {
-    name: 'React',
-    level: '100%',
-    Icon: 'Icon',
+    name: 'Emotion',
+    src: '/images/slack.png',
   },
 ];
 
 export const projects: ProjectType[] = [
   {
     name: '다팔자',
-    image_path: '/images/asd.jpg',
-    notion_url: '',
-    deployed_url: '',
+    image_path: '/images/dafalza.png',
+    notion_url:
+      'https://magenta-forest-566.notion.site/153f21e6b7de4505b3df259aa204a72b',
+    deployed_url: 'https://ownerclan.com/V2/info_page/dafalza2.php',
     github_url: '',
   },
   {
     name: '스타우터',
-    image_path: '/images/asd.jpg',
-    notion_url: '',
-    deployed_url: '',
+    image_path: '/images/stauter.png',
+    notion_url:
+      'https://magenta-forest-566.notion.site/Stauter-1a005404c12946149f4ffd521659f22f',
+    deployed_url: 'https://stauter.contact',
     github_url: '',
   },
   {
     name: 'E-COMMERCE',
-    image_path: '/images/asd.jpg',
-    notion_url: '',
-    deployed_url: '',
-    github_url: '',
+    image_path: '/images/ecommerce.png',
+    notion_url:
+      'https://magenta-forest-566.notion.site/incourse-run-ae3493ac5d0a4504b6ddf83fd6b56d66',
+    deployed_url:
+      'https://fastcampas-5-commerce-fe-nwm6-idxtxcuz8-kylecho.vercel.app/login',
+    github_url: 'https://github.com/San-Goon/e-commerce-project',
   },
   {
     name: 'SLACK',
-    image_path: '/images/asd.jpg',
-    notion_url: '',
-    deployed_url: '',
-    github_url: '',
+    image_path: '/images/slack.png',
+    notion_url:
+      'https://magenta-forest-566.notion.site/slack-c4fe244a9b1f474aa1fa86ca1e7a01b5',
+    deployed_url: 'https://slack-clone-one-beta.vercel.app/',
+    github_url: 'https://github.com/San-Goon/slack-clone',
   },
   {
     name: 'Portfolio',
-    image_path: '/images/asd.jpg',
+    image_path: '',
     notion_url: '',
     deployed_url: '',
-    github_url: '',
+    github_url: 'https://github.com/San-Goon/portfolio-newdesign',
   },
 ];
