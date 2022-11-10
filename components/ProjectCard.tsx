@@ -15,7 +15,13 @@ ProjectType) => {
   return (
     <div>
       <p className="my-2 text-center">{name}</p>
-      <Image src="" alt={name} className="cursor-pointer" />
+      <Image
+        src=""
+        alt={name}
+        className="cursor-pointer"
+        width="300"
+        height="150"
+      />
       <div className="flex justify-center my-4 space-x-3">
         <a
           href={notion_url}
