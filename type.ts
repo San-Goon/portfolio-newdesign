@@ -3,3 +3,9 @@ export interface ServiceType {
   about: string;
   Icon: string; // IconType
 }
+
+export interface SkillType {
+  name: string;
+  level: string;
+  Icon: string; // IconType
+}
