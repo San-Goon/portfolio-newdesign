@@ -13,7 +13,9 @@ const NavItem: FunctionComponent<{
 
   return activeItem !== name ? (
     <Link href={route} passHref>
-      <span onClick={onClickItem}>{name}</span>
+      <span onClick={onClickItem} className="hover:text-green-400">
+        {name}
+      </span>
     </Link>
   ) : null;
 };

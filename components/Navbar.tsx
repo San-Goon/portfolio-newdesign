@@ -19,9 +19,11 @@ const Navbar = () => {
   }, [pathname]);
 
   return (
-    <div>
-      <span className="font-bold text-green-400">{activeItem}</span>
-      <div className="flex space-x-3 text-red-400 font-lg">
+    <div className="flex justify-between px-5 py-3 my-3">
+      <span className="text-xl font-bold text-green-400 border-b-4 border-green-400 md:text-2xl">
+        {activeItem}
+      </span>
+      <div className="flex space-x-5 text-lg">
         {NAV_ITEMS.map(({ name, route }) => (
           <NavItem
             key={name}
