@@ -6,8 +6,7 @@ export interface ServiceType {
 
 export interface SkillType {
   name: string;
-  level: string;
-  Icon: string; // IconType
+  src: string;
 }
 
 export interface ProjectType {
