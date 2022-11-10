@@ -5,7 +5,7 @@ export const services: ServiceType[] = [
   {
     title: 'SSR 환경을 구축해보았습니다.',
     about:
-      '&nbsp;성능면에서 CSR, SSG, SSR 의 차이점을 명확하게 구분할 수 있고, SEO 의 최적화를 위해 SSR 로 프로젝트를 진행해 본 경험이 있습니다.',
+      '&nbsp;성능면에서 CSR, SSG, SSR 의 차이점을 명확하게 구분할 수 있고, SEO 의 최적화를 위해 Next.js를 이용한 SSR 구현 방법으로 프로젝트를 진행해 본 경험이 있습니다.',
     Icon: 'Icon',
   },
   {
