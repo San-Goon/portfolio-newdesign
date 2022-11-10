@@ -26,7 +26,7 @@ const Sidebar = () => {
         <GiTie className="w-6 h-6" />
         이력서 다운로드
       </a>
-      <div className="flex justify-around my-5 mx-auto text-green-500 w-9/12 md:w-full">
+      <div className="flex justify-around w-9/12 mx-auto my-5 text-green-500 md:w-full">
         <a
           href="https://github.com/San-Goon"
           target="_blank"
@@ -43,7 +43,7 @@ const Sidebar = () => {
         </a>
       </div>
       <div
-        className="my-5 py-4 bg-gray-200"
+        className="py-4 my-5 bg-gray-200"
         style={{ marginLeft: '-1rem', marginRight: '-1rem' }}
       >
         <div className="flex items-center justify-center space-x-2">
@@ -54,12 +54,12 @@ const Sidebar = () => {
         <p className="my-2">010-6611-2574</p>
       </div>
       <button
-        className="bg-gradient-to-r from-green-400 to-blue-400 w-8/12 rounded-full py-2 px-5 text-white my-2"
+        className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green-400 to-blue-400"
         onClick={onClickEmail}
       >
         Email me
       </button>
-      <button className="bg-gradient-to-r from-green-400 to-blue-400 w-8/12 rounded-full py-2 px-5 text-white my-2">
+      <button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green-400 to-blue-400">
         Theme
       </button>
     </div>
