@@ -4,12 +4,18 @@ import ServiceCard from '../components/ServiceCard';
 const index = () => {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1">
-      <h5 className="my-3 font-medium">소개를 넣어주세용</h5>
+      <h5 className="my-3 font-medium">
+        안녕하세요. 웹 프론트엔드 개발자 조강훈 입니다.
+        <br /> 새로운 기술에 관심이 많고, 매일매일 배우려고 노력하고 있습니다.
+        <br />
+        주로 <b>React.js / Next.js / TypeScript</b> 환경에서 개발을 하고
+        있습니다.
+      </h5>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"
         style={{ marginLeft: '-1.5rem', marginRight: '-1.5rem' }}
       >
-        <h6 className="my-3 text-xl font-bold tracking-wide">What I Offer</h6>
+        <h6 className="my-3 text-xl font-bold tracking-wide">What Can I Do?</h6>
         <div className="grid gap-6 lg:grid-cols-2">
           {services.map(({ title, about, Icon }) => (
             <div
