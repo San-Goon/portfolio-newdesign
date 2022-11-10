@@ -41,12 +41,12 @@ const Sidebar = () => {
       </p>
       <a
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200"
-        href=""
+        href="https://drive.google.com/file/d/1IFf_9A9eYw6vGcmXXbon4SlTAutvvA9O/view?usp=sharing"
         target="_blank"
         rel="noreferrer noopener"
       >
         <GiTie className="w-6 h-6" />
-        이력서 다운로드
+        이력서 열람
       </a>
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green-500 md:w-full">
         <a
