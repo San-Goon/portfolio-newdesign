@@ -56,15 +56,15 @@ export const mainSkills: SkillType[] = [
     src: '/images/reactquery.png',
   },
   {
-    name: 'Git',
-    src: '/images/slack.png',
+    name: 'Github',
+    src: '/images/github.png',
   },
 ];
 
 export const experiencedSkills: SkillType[] = [
   {
     name: 'SWR',
-    src: '/images/slack.png',
+    src: '/images/SWR.png',
   },
   {
     name: 'GraphQL',
@@ -80,7 +80,7 @@ export const experiencedSkills: SkillType[] = [
   },
   {
     name: 'Material-UI',
-    src: '/images/slack.png',
+    src: '/images/MUI.png',
   },
   {
     name: 'Tailwind CSS',
@@ -88,7 +88,7 @@ export const experiencedSkills: SkillType[] = [
   },
   {
     name: 'Emotion',
-    src: '/images/slack.png',
+    src: '/images/emotion.png',
   },
 ];
 
