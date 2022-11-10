@@ -27,7 +27,7 @@ const Sidebar = () => {
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200"
         href=""
         target="_blank"
-        rel="noreferrer noopenner"
+        rel="noreferrer noopener"
       >
         <GiTie className="w-6 h-6" />
         이력서 다운로드
@@ -36,14 +36,14 @@ const Sidebar = () => {
         <a
           href="https://github.com/San-Goon"
           target="_blank"
-          rel="noreferrer noopenner"
+          rel="noreferrer noopener"
         >
           <AiFillGithub className="w-8 h-8 cursor-pointer" />
         </a>
         <a
           href="https://www.linkedin.com/in/%EA%B0%95%ED%9B%88-%EC%A1%B0-697372242/"
           target="_blank"
-          rel="noreferrer noopenner"
+          rel="noreferrer noopener"
         >
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>

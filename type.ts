@@ -9,3 +9,13 @@ export interface SkillType {
   level: string;
   Icon: string; // IconType
 }
+
+export interface ProjectType {
+  name: string;
+  // description: string;
+  image_path: string;
+  notion_url: string;
+  deployed_url: string;
+  github_url: string | null;
+  // key_techs: string[];
+}
