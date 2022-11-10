@@ -1,8 +1,16 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 const Navbar = () => {
   const [activeItem, setActiveItem] = useState('');
+  const { pathname } = useRouter();
+
+  useEffect(() => {
+    if (pathname === '/') setActiveItem('About');
+    if (pathname === '/projects') setActiveItem('Projects');
+    if (pathname === '/resume') setActiveItem('Resume');
+  }, [pathname]);
 
   const onClickAbout = useCallback(() => {
     setActiveItem('About');
