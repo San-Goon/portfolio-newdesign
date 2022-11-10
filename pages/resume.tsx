@@ -4,7 +4,7 @@ import Bar from '../components/Bar';
 const resume = () => {
   return (
     <div className="px-6 py-2">
-      <div className="grid md:grid-cols-2 gap-6">
+      <div className="grid gap-6 md:grid-cols-2">
         <div>
           <h5 className="my-3 text-2xl font-bold">Education</h5>
           <div>
@@ -20,7 +20,7 @@ const resume = () => {
           </div>
         </div>
       </div>
-      <div className="grid md:grid-cols-2 gap-6">
+      <div className="grid gap-6 md:grid-cols-2">
         <div>
           <h5 className="my-3 text-2xl font-bold">Languages & Frameworks</h5>
           <div className="my-2">
