@@ -2,6 +2,7 @@ import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
 import { GiTie } from 'react-icons/gi';
 import { useCallback } from 'react';
+import Image from 'next/image';
 
 const Sidebar = () => {
   const onClickEmail = useCallback(() => {
@@ -12,7 +13,7 @@ const Sidebar = () => {
 
   return (
     <div>
-      <img src="" alt="temp" className="w-32 h-32 mx-auto rounded-full" />
+      <Image src="" alt="temp" className="w-32 h-32 mx-auto rounded-full" />
       <h3 className="my-4 text-3xl font-medium">조 강 훈</h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full">
         Frontend Developer
