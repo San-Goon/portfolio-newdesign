@@ -1,6 +1,12 @@
-import { useState, useCallback, useEffect } from 'react';
-import Link from 'next/link';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
+import NavItem from './NavItem';
+
+const NAV_ITEMS = [
+  { name: 'About', route: '/' },
+  { name: 'Projects', route: '/projects' },
+  { name: 'Resume', route: '/resume' },
+];
 
 const Navbar = () => {
   const [activeItem, setActiveItem] = useState('');
@@ -12,35 +18,19 @@ const Navbar = () => {
     if (pathname === '/resume') setActiveItem('Resume');
   }, [pathname]);
 
-  const onClickAbout = useCallback(() => {
-    setActiveItem('About');
-  }, []);
-  const onClickProjects = useCallback(() => {
-    setActiveItem('Projects');
-  }, []);
-  const onClickResume = useCallback(() => {
-    setActiveItem('Resume');
-  }, []);
-
   return (
     <div>
       <span className="font-bold text-green-400">{activeItem}</span>
       <div className="flex space-x-3 text-red-400 font-lg">
-        {activeItem !== 'About' ? (
-          <Link href="/" passHref>
-            <span onClick={onClickAbout}>About</span>
-          </Link>
-        ) : null}
-        {activeItem !== 'Projects' ? (
-          <Link href="/projects" passHref>
-            <span onClick={onClickProjects}>Projects</span>
-          </Link>
-        ) : null}
-        {activeItem !== 'Resume' ? (
-          <Link href="/resume" passHref>
-            <span onClick={onClickResume}>Resume</span>
-          </Link>
-        ) : null}
+        {NAV_ITEMS.map(({ name, route }) => (
+          <NavItem
+            key={name}
+            activeItem={activeItem}
+            setActiveItem={setActiveItem}
+            name={name}
+            route={route}
+          />
+        ))}
       </div>
     </div>
   );
