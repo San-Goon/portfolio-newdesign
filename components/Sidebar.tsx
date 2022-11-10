@@ -32,7 +32,7 @@ const Sidebar = () => {
         <GiTie className="w-6 h-6" />
         이력서 다운로드
       </a>
-      <div className="flex justify-around w-9/12 mx-auto my-5 text-primary-500 md:w-full">
+      <div className="flex justify-around w-9/12 mx-auto my-5 text-green-500 md:w-full">
         <a
           href="https://github.com/San-Goon"
           target="_blank"
