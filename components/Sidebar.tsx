@@ -30,9 +30,9 @@ const Sidebar = () => {
       <Image
         src="/images/me.png"
         alt="temp"
-        className="mx-auto rounded-full"
-        height="128"
-        width="128"
+        className="mx-auto"
+        height="300"
+        width="200"
         quality="100"
       />
       <h3 className="my-4 text-3xl font-medium">조 강 훈</h3>
