@@ -1,7 +1,12 @@
 import { experiencedSkills, mainSkills } from '../data';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { fadeInUp, routeAnimation } from '../animation';
+import {
+  fadeInUp,
+  fadeInUpExperiencedSkills,
+  fadeInUpMainSkills,
+  routeAnimation,
+} from '../animation';
 
 const resume = () => {
   return (
@@ -40,7 +45,11 @@ const resume = () => {
         </motion.div>
       </div>
       <div className="grid gap-6 md:grid-cols-2 mt-6">
-        <div>
+        <motion.div
+          variants={fadeInUpMainSkills}
+          initial="initial"
+          animate="animate"
+        >
           <h5 className="my-3 text-2xl font-bold">Main Skills</h5>
           <div className="my-2 grid grid-cols-12 gap-4">
             {mainSkills.map(({ name, src }) => (
@@ -59,8 +68,12 @@ const resume = () => {
               </div>
             ))}
           </div>
-        </div>
-        <div>
+        </motion.div>
+        <motion.div
+          variants={fadeInUpExperiencedSkills}
+          initial="initial"
+          animate="animate"
+        >
           <h5 className="my-3 text-2xl font-bold">Experienced Skills</h5>
           <div className="my-2 grid grid-cols-12 gap-4">
             {experiencedSkills.map(({ name, src }) => (
@@ -79,7 +92,7 @@ const resume = () => {
               </div>
             ))}
           </div>
-        </div>
+        </motion.div>
       </div>
     </motion.div>
   );

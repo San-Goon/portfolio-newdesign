@@ -9,11 +9,39 @@ export const fadeInUp = {
   },
 };
 
+export const fadeInUpMainSkills = {
+  initial: {
+    opacity: 0,
+    y: 60,
+  },
+  animate: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: 0.5,
+    },
+  },
+};
+
+export const fadeInUpExperiencedSkills = {
+  initial: {
+    opacity: 0,
+    y: 60,
+  },
+  animate: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: 1,
+    },
+  },
+};
+
 export const stagger = {
   initial: {},
   animate: {
     transition: {
-      staggerChildren: 0.1,
+      staggerChildren: 0.2,
     },
   },
 };
