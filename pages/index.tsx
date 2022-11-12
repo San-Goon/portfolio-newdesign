@@ -1,11 +1,17 @@
 import { services } from '../data';
 import ServiceCard from '../components/ServiceCard';
 import { motion } from 'framer-motion';
-import { fadeInUp, stagger } from '../animation';
+import { fadeInUp, routeAnimation, stagger } from '../animation';
 
 const About = () => {
   return (
-    <div className="flex flex-col flex-grow px-6 pt-1">
+    <motion.div
+      className="flex flex-col flex-grow px-6 pt-1"
+      variants={routeAnimation}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+    >
       <h5 className="my-3 font-medium">
         안녕하세요. 웹 프론트엔드 개발자 조강훈 입니다.
         <br /> 새로운 기술에 관심이 많고, 매일매일 배우려고 노력하고 있습니다.
@@ -35,7 +41,7 @@ const About = () => {
           ))}
         </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
