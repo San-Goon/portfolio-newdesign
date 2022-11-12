@@ -34,7 +34,7 @@ const About = () => {
             <motion.div
               variants={fadeInUp}
               key={title}
-              className="bg-gray-200 rounded-lg dark:bg-dark-200 lg:col-span-1"
+              className="bg-gray-200 mb-auto rounded-lg dark:bg-dark-200 lg:col-span-1"
             >
               <ServiceCard title={title} about={about} Icon={Icon} />
             </motion.div>

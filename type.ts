@@ -1,7 +1,9 @@
+import { IconType } from 'react-icons';
+
 export interface ServiceType {
   title: string;
   about: string;
-  Icon: string; // IconType
+  Icon: IconType;
 }
 
 export interface SkillType {
