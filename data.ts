@@ -81,6 +81,10 @@ export const experiencedSkills: SkillType[] = [
     src: '/images/electron.png',
   },
   {
+    name: 'Socket.IO',
+    src: '/images/socketio.png',
+  },
+  {
     name: 'Chakra-UI',
     src: '/images/chakra.png',
   },
@@ -91,6 +95,10 @@ export const experiencedSkills: SkillType[] = [
   {
     name: 'Tailwind CSS',
     src: '/images/tailwind.png',
+  },
+  {
+    name: 'Framer Motion',
+    src: '/images/framermotion.png',
   },
   {
     name: 'Emotion',
@@ -135,8 +143,9 @@ export const projects: ProjectType[] = [
   {
     name: 'Portfolio',
     image_path: '/images/portfolio.png',
-    notion_url: '',
-    deployed_url: '',
+    notion_url:
+      'https://magenta-forest-566.notion.site/04bfd200a6314e58af8ad6e9b80521d1',
+    deployed_url: 'https://latest-portfolio-three.vercel.app/',
     github_url: 'https://github.com/San-Goon/portfolio-newdesign',
   },
 ];
