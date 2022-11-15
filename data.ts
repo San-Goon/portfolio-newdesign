@@ -25,7 +25,7 @@ export const services: ServiceType[] = [
   {
     title: 'Atomic Design',
     about:
-      '&nbsp;개발의 효율성을 높이기 위해 재사용 가능성을 고려한 디자인 패턴인 Atomic design 을 사용해 개발해 본 경험이 있습니다.',
+      '&nbsp;개발의 효율성을 높이기 위해 재사용 가능성을 고려한 디자인 패턴인 Atomic Design 을 사용해 개발해 본 경험이 있습니다.',
     Icon: TbAtom,
   },
   {

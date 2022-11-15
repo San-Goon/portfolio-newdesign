@@ -32,13 +32,13 @@ const resume = () => {
           <h5 className="my-3 text-2xl font-bold">Experience</h5>
           <div>
             <h5 className="my-2 text-xl font-bold">
-              라스트일마일 (21.11 ~ 22.07)
+              라스트일마일 (21.11 ~ 22.06)
             </h5>
             <p className="mx-3">개발팀 / 팀원</p>
           </div>
           <div>
             <h5 className="my-2 text-xl font-bold">
-              똑똑한개발자 (22.09 ~ 22.11)
+              똑똑한개발자 (22.09 ~ 22.10)
             </h5>
             <p className="mx-3">개발팀 / 인턴</p>
           </div>
