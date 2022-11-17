@@ -1,7 +1,7 @@
 import { ProjectType, ServiceType, SkillType } from './type';
 import { TbAtom, TbHeartHandshake } from 'react-icons/tb';
 import { GoBrowser, GoCommentDiscussion, GoDashboard } from 'react-icons/go';
-import { GrTest } from 'react-icons/all';
+import { BiTestTube } from 'react-icons/bi';
 
 // <b>태그 사용 가능
 export const services: ServiceType[] = [
@@ -38,7 +38,7 @@ export const services: ServiceType[] = [
   {
     title: 'TDD',
     about: '&nbsp; Jest 와 RTL 를 이용한 TDD 을 해본 경험이 있습니다.',
-    Icon: GrTest,
+    Icon: BiTestTube,
   },
 ];
 
