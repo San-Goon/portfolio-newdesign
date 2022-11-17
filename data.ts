@@ -106,6 +106,14 @@ export const experiencedSkills: SkillType[] = [
     name: 'Emotion',
     src: '/images/emotion.png',
   },
+  {
+    name: 'Jest',
+    src: '/images/jest.png',
+  },
+  {
+    name: 'React Testing Library',
+    src: '/images/rtl.png',
+  },
 ];
 
 export const projects: ProjectType[] = [
