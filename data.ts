@@ -1,6 +1,7 @@
 import { ProjectType, ServiceType, SkillType } from './type';
 import { TbAtom, TbHeartHandshake } from 'react-icons/tb';
 import { GoBrowser, GoCommentDiscussion, GoDashboard } from 'react-icons/go';
+import { GrTest } from 'react-icons/all';
 
 // <b>태그 사용 가능
 export const services: ServiceType[] = [
@@ -33,6 +34,11 @@ export const services: ServiceType[] = [
     about:
       '&nbsp;· 실제 배포중인 프로그램 개발에 참여한 경험이 있으며, 그 과정에서 많은 고객 분들과 소통하면서 CS 처리를 해본 경험이 있습니다.<br />&nbsp;· 협업을 하며 Co-Worker 분들과의 효율적인 협업을 위한 소통 방법을 길렀습니다.',
     Icon: GoCommentDiscussion,
+  },
+  {
+    title: 'TDD',
+    about: '&nbsp; Jest 와 RTL 를 이용한 TDD 을 해본 경험이 있습니다.',
+    Icon: GrTest,
   },
 ];
 
