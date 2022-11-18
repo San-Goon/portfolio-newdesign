@@ -75,6 +75,10 @@ export const experiencedSkills: SkillType[] = [
     src: '/images/SWR.png',
   },
   {
+    name: 'Webpack',
+    src: '/images/webpack.png',
+  },
+  {
     name: 'GraphQL',
     src: '/images/graphql.png',
   },
