@@ -41,7 +41,7 @@ const Sidebar = () => {
       </p>
       <a
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200"
-        href="https://drive.google.com/file/d/1A0-WC37vneSN2gcy8mhWMLjgb_8wWtg3/view?usp=share_link"
+        href="https://drive.google.com/file/d/14ehyak0AqF4zMRxD1CQNWFXjKLkRfBv8/view?usp=sharing"
         target="_blank"
         rel="noreferrer noopener"
       >
