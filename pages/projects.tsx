@@ -1,9 +1,23 @@
-import { projects } from '../data';
+import { projects as projectsData } from '../data';
 import ProjectCard from '../components/ProjectCard';
 import { motion } from 'framer-motion';
 import { fadeInUp, routeAnimation, stagger } from '../animation';
+import { useEffect, useState } from 'react';
+import ProjectsNavItem from '../components/ProjectsNavItem';
 
 const Projects = () => {
+  const [projects, setProjects] = useState(projectsData);
+  const [active, setActive] = useState('all');
+
+  useEffect(() => {
+    if (active !== 'all') {
+      const temp = [...projectsData].filter((v) => v.platform === active);
+      setProjects(temp);
+    } else {
+      setProjects(projectsData);
+    }
+  }, [active]);
+
   return (
     <motion.div
       className="px-5 py-2 overflow-y-scroll"
@@ -13,6 +27,18 @@ const Projects = () => {
       animate="animate"
       exit="exit"
     >
+      <div className="flex px-3 py-2 space-x-3 overflow-x-auto list-none">
+        {['all', 'web', 'app'].map((v) => {
+          return (
+            <ProjectsNavItem
+              key={v}
+              activeItem={active}
+              name={v}
+              setActiveItem={setActive}
+            />
+          );
+        })}
+      </div>
       <motion.div
         className="grid grid-cols-12 gap-4 my-3"
         variants={stagger}

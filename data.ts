@@ -48,6 +48,10 @@ export const mainSkills: SkillType[] = [
     src: '/images/react.png',
   },
   {
+    name: 'React Native',
+    src: '/images/react.png',
+  },
+  {
     name: 'Next.js',
     src: '/images/nextjs.png',
   },
@@ -128,6 +132,7 @@ export const projects: ProjectType[] = [
       'https://magenta-forest-566.notion.site/153f21e6b7de4505b3df259aa204a72b',
     deployed_url: 'https://ownerclan.com/V2/info_page/dafalza2.php',
     github_url: '',
+    platform: 'web',
   },
   {
     name: '스타우터',
@@ -136,6 +141,7 @@ export const projects: ProjectType[] = [
       'https://magenta-forest-566.notion.site/Stauter-1a005404c12946149f4ffd521659f22f',
     deployed_url: 'https://stauter.contact',
     github_url: '',
+    platform: 'web',
   },
   {
     name: 'E-COMMERCE',
@@ -145,6 +151,7 @@ export const projects: ProjectType[] = [
     deployed_url:
       'https://fastcampas-5-commerce-fe-nwm6-idxtxcuz8-kylecho.vercel.app/login',
     github_url: 'https://github.com/San-Goon/e-commerce-project',
+    platform: 'web',
   },
   {
     name: 'Slack',
@@ -153,6 +160,7 @@ export const projects: ProjectType[] = [
       'https://magenta-forest-566.notion.site/slack-c4fe244a9b1f474aa1fa86ca1e7a01b5',
     deployed_url: 'https://slack-clone-one-beta.vercel.app/',
     github_url: 'https://github.com/San-Goon/slack-clone',
+    platform: 'web',
   },
   {
     name: 'Portfolio',
@@ -161,5 +169,15 @@ export const projects: ProjectType[] = [
       'https://magenta-forest-566.notion.site/04bfd200a6314e58af8ad6e9b80521d1',
     deployed_url: 'https://latest-portfolio-three.vercel.app/',
     github_url: 'https://github.com/San-Goon/portfolio-newdesign',
+    platform: 'web',
+  },
+  {
+    name: 'Food Delivery App',
+    image_path: '/images/food_delivery.PNG',
+    notion_url:
+      'https://magenta-forest-566.notion.site/b64e3c8f2006461ba92239f3c213213f',
+    deployed_url: '',
+    github_url: 'https://github.com/San-Goon/food-delivery-app',
+    platform: 'app',
   },
 ];

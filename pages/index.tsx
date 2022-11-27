@@ -13,11 +13,12 @@ const About = () => {
       exit="exit"
     >
       <h5 className="my-3 font-medium">
-        안녕하세요. 웹 프론트엔드 개발자 조강훈 입니다.
+        안녕하세요. 프론트엔드 개발자 조강훈 입니다.
         <br /> 새로운 기술에 관심이 많고, 매일매일 배우려고 노력하고 있습니다.
         <br />
-        주로 <b>React.js / Next.js / TypeScript</b> 환경에서 개발을 하고
-        있습니다.
+        주로 <b>React.js / Next.js / TypeScript</b> 환경에서 개발을 하고 있고,{' '}
+        <br />
+        <b>React Native</b> 를 사용한 앱 개발 경험도 있습니다.
       </h5>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"

@@ -11,7 +11,7 @@ const ProjectCard = ({
   github_url,
   notion_url,
 }: // description,
-ProjectType) => {
+Omit<ProjectType, 'platform'>) => {
   return (
     <div>
       <p className="my-2 text-center">{name}</p>
@@ -44,15 +44,17 @@ ProjectType) => {
             <span>Github</span>
           </a>
         ) : null}
-        <a
-          href={deployed_url}
-          target="_blank"
-          rel="noreferrer noopener"
-          className="flex flex-col items-center bg-gray-200 dark:bg-dark-200"
-        >
-          <AiFillProject className="w-6 h-6" />
-          <span>Demo</span>
-        </a>
+        {deployed_url ? (
+          <a
+            href={deployed_url}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="flex flex-col items-center bg-gray-200 dark:bg-dark-200"
+          >
+            <AiFillProject className="w-6 h-6" />
+            <span>Demo</span>
+          </a>
+        ) : null}
       </div>
     </div>
   );

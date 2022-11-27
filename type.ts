@@ -16,7 +16,8 @@ export interface ProjectType {
   // description: string;
   image_path: string;
   notion_url: string;
-  deployed_url: string;
+  deployed_url: string | null;
   github_url: string | null;
+  platform: 'web' | 'app';
   // key_techs: string[];
 }
