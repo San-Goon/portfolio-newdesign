@@ -178,6 +178,15 @@ export const projects: ProjectType[] = [
       'https://magenta-forest-566.notion.site/b64e3c8f2006461ba92239f3c213213f',
     deployed_url: '',
     github_url: 'https://github.com/San-Goon/food-delivery-app',
-    platform: 'app',
+    platform: 'mobile',
+  },
+  {
+    name: 'Sand Bank',
+    image_path: '/images/sandbank.png',
+    notion_url:
+      'https://magenta-forest-566.notion.site/Sand-Bank-45976a58eab5460a807392569be81604',
+    deployed_url: '',
+    github_url: 'https://github.com/San-Goon/DAG-assignment',
+    platform: 'mobile',
   },
 ];

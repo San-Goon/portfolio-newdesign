@@ -28,7 +28,7 @@ const Projects = () => {
       exit="exit"
     >
       <div className="flex px-3 py-2 space-x-3 overflow-x-auto list-none">
-        {['all', 'web', 'app'].map((v) => {
+        {['all', 'web', 'mobile'].map((v) => {
           return (
             <ProjectsNavItem
               key={v}

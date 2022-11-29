@@ -18,6 +18,6 @@ export interface ProjectType {
   notion_url: string;
   deployed_url: string | null;
   github_url: string | null;
-  platform: 'web' | 'app';
+  platform: 'web' | 'mobile';
   // key_techs: string[];
 }
