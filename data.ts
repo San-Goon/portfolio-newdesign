@@ -149,7 +149,7 @@ export const projects: ProjectType[] = [
     notion_url:
       'https://magenta-forest-566.notion.site/incourse-run-ae3493ac5d0a4504b6ddf83fd6b56d66',
     deployed_url:
-      'https://fastcampas-5-commerce-fe-nwm6-idxtxcuz8-kylecho.vercel.app/login',
+      'https://fastcampas-5-commerce-fe-nwm6-kylecho.vercel.app/login',
     github_url: 'https://github.com/San-Goon/e-commerce-project',
     platform: 'web',
   },
