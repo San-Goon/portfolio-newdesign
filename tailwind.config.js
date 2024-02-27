@@ -1,36 +1,53 @@
-/** @type {import('tailwindcss').Config} */
+const { spacing, fontFamily } = require('tailwindcss/defaultTheme');
+
 module.exports = {
-  darkMode: 'class',
-  content: [
-    './app/**/*.{js,ts,jsx,tsx}',
-    './pages/**/*.{js,ts,jsx,tsx}',
-    './components/**/*.{js,ts,jsx,tsx}',
-  ],
+  content: ['./pages/**/*.tsx', './components/**/*.tsx', './layouts/**/*.tsx'],
   theme: {
-    boxShadow: {
-      'custom-light': '0 0 10px #313131',
-      'custom-dark': '5px 5px 10px #0a0c0e, -5px -5px 10px #14161c',
-    },
     extend: {
       colors: {
-        primary: {
-          DEFAULT: '#00f260',
-        },
-        dark: {
-          DEFAULT: '#010101',
-          100: '#0a0b1e',
-          200: '#16181d',
-          300: '#16181d',
-          500: '#0f1115',
-          700: '#202125',
-        },
+        'blue-opaque': 'rgb(13 42 148 / 18%)',
+        gray: {
+          0: '#fff',
+          100: '#fafafa',
+          200: '#eaeaea',
+          300: '#999999',
+          400: '#d4d4d4',
+          500: '#666666',
+          600: '#444444',
+          700: '#333333',
+          800: '#222222',
+          900: '#111010'
+        }
       },
-    },
+      fontFamily: {
+        sans: ['var(--font-graphik)'],
+      },
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            color: theme('colors.gray.700'),
+            a: {
+              color: theme('colors.blue.500'),
+              '&:hover': {
+                color: theme('colors.blue.700')
+              },
+              code: { color: theme('colors.blue.400') }
+            },
+            'h2,h3,h4': {
+              'scroll-margin-top': spacing[32]
+            },
+            thead: {
+              borderBottomColor: theme('colors.gray.200')
+            },
+            code: { color: theme('colors.pink.500') },
+            'blockquote p:first-of-type::before': false,
+            'blockquote p:last-of-type::after': false
+          }
+        },
+      })
+    }
   },
-  variants: {
-    extend: {
-      boxShadow: ['dark'],
-    },
-  },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography')
+  ]
 };
