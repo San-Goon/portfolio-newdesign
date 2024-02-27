@@ -1,43 +1,86 @@
 'use client';
 
 import { Timeline, TimelineEvent } from './TimeLineExp';
+import AnimationContainer from '@/components/utils/AnimationContainer';
+import ShowSkills from '@/components/utils/ShowSkills';
 
-const CurrentTimeLineExp = () => {
+export default function CurrentTimeLineExp() {
   return (
     <Timeline>
-
       <TimelineEvent active>
-
-        <TimelineEvent.Title><a href='https://www.ia.com.mx' target='_blank' rel='noopener noreferrer' className='hover:text-white hover:underline transition-all ease'>IA Interactive</a> | mar. 2023 - Currently</TimelineEvent.Title>
+        <TimelineEvent.Title>
+          (주)레이슬론 | 대리 | dec. 2022 - Currently
+        </TimelineEvent.Title>
 
         <TimelineEvent.Description>
-          Frontend development and maintenance of projects implementing agile methodologies (Kanban in Jira) and best practices such as SOLID principles, pixel perfect, clean architecture, clean code using Jira, SCRUM practices, Git, GitFlow practices, Bitbucket, HTML, CSS, Pug, SASS, Tailwind, JavaScript, TypeScript, React, Next.js, Redux, Zustand, Jest and using microfrontends and Storybook to facilitate the use of reusable components.
+          LG전자 협력사 직원으로 근무하며 프론트엔드 개발자로서 LG ThinQ App
+          전반적인 데이터를 관리하는 Back-Office (Admin, Dashboard) 개발 담당을
+          하였습니다. Dashboard 개발을 하며 amchart 를 이용, 데이터 시각화를
+          하였습니다.
+          <div>
+            <h3 className="font-bold text-1xl md:text-1xl tracking-tight text-white my-2 text-start">
+              Used Skills
+            </h3>
+            <AnimationContainer customClassName="flex items-center flex-wrap gap-3 mb-5">
+              <ShowSkills
+                skills={[
+                  'TypeScript',
+                  'React',
+                  'Next.js',
+                  'Redux',
+                  'TurboRepo'
+                ]}
+              />
+            </AnimationContainer>
+          </div>
         </TimelineEvent.Description>
-
       </TimelineEvent>
 
       <TimelineEvent>
-
-        <TimelineEvent.Title>Freelance | feb. 2022 - mar. 2023</TimelineEvent.Title>
+        <TimelineEvent.Title>
+          똑똑한개발자 | 인턴 | sep. 2022 - nov. 2022
+        </TimelineEvent.Title>
 
         <TimelineEvent.Description>
-          Design and development of web pages applying agile methodologies, clean architecture, SOLID principles and pixel perfect in all projects, I have developed almost all types of projects from Landing pages, stores, blogs and dashboards.
+          디자이너 및 백엔드 개발자와 협업하며 Stauter 개발에 참여하였습니다.
+          <div>
+            <h3 className="font-bold text-1xl md:text-1xl tracking-tight text-white my-2 text-start">
+              Used Skills
+            </h3>
+            <AnimationContainer customClassName="flex items-center flex-wrap gap-3 mb-5">
+              <ShowSkills
+                skills={[
+                  'TypeScript',
+                  'React',
+                  'Next.js',
+                  'TanStack Query',
+                  'Redux'
+                ]}
+              />
+            </AnimationContainer>
+          </div>
         </TimelineEvent.Description>
-
       </TimelineEvent>
 
       <TimelineEvent last>
-
-        <TimelineEvent.Title>Studio Iluxion | may. 2022 - jul. 2022</TimelineEvent.Title>
+        <TimelineEvent.Title>
+          (주)라스트일마일 | 사원 | nov. 2021 - jul. 2022
+        </TimelineEvent.Title>
 
         <TimelineEvent.Description>
-          Web designer and responsive web designer on projects using Figma, HTML, CSS, SCSS, SASS, Bootstrap, JavaScript, jQuery implementing SCRUM, pixel perfect and clean code.
+          다팔자 프로그램 개발 담당 및 사내 Back-Office 개발 담당을 하였습니다.
+          <div>
+            <h3 className="font-bold text-1xl md:text-1xl tracking-tight text-white my-2 text-start">
+              Used Skills
+            </h3>
+            <AnimationContainer customClassName="flex items-center flex-wrap gap-3 mb-5">
+              <ShowSkills
+                skills={['TypeScript', 'React', 'Redux', 'Electron', 'GraphQL']}
+              />
+            </AnimationContainer>
+          </div>
         </TimelineEvent.Description>
-
       </TimelineEvent>
-
     </Timeline>
-  )
+  );
 }
-
-export default CurrentTimeLineExp;
