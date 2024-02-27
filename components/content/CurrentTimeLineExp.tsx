@@ -1,7 +1,6 @@
 'use client';
 
 import { Timeline, TimelineEvent } from './TimeLineExp';
-import AnimationContainer from '@/components/utils/AnimationContainer';
 import ShowSkills from '@/components/utils/ShowSkills';
 
 export default function CurrentTimeLineExp() {
@@ -17,23 +16,15 @@ export default function CurrentTimeLineExp() {
           전반적인 데이터를 관리하는 Back-Office (Admin, Dashboard) 개발 담당을
           하였습니다. Dashboard 개발을 하며 amchart 를 이용, 데이터 시각화를
           하였습니다.
-          <div>
-            <h3 className="font-bold text-1xl md:text-1xl tracking-tight text-white my-2 text-start">
-              Used Skills
-            </h3>
-            <AnimationContainer customClassName="flex items-center flex-wrap gap-3 mb-5">
-              <ShowSkills
-                skills={[
-                  'TypeScript',
-                  'React',
-                  'Next.js',
-                  'Redux',
-                  'TurboRepo'
-                ]}
-              />
-            </AnimationContainer>
-          </div>
         </TimelineEvent.Description>
+        <div>
+          <h3 className="font-bold text-1xl md:text-1xl tracking-tight text-white my-2 text-start">
+            Used Skills
+          </h3>
+          <ShowSkills
+            skills={['TypeScript', 'React', 'Next.js', 'Redux', 'TurboRepo']}
+          />
+        </div>
       </TimelineEvent>
 
       <TimelineEvent>
@@ -43,23 +34,21 @@ export default function CurrentTimeLineExp() {
 
         <TimelineEvent.Description>
           디자이너 및 백엔드 개발자와 협업하며 Stauter 개발에 참여하였습니다.
-          <div>
-            <h3 className="font-bold text-1xl md:text-1xl tracking-tight text-white my-2 text-start">
-              Used Skills
-            </h3>
-            <AnimationContainer customClassName="flex items-center flex-wrap gap-3 mb-5">
-              <ShowSkills
-                skills={[
-                  'TypeScript',
-                  'React',
-                  'Next.js',
-                  'TanStack Query',
-                  'Redux'
-                ]}
-              />
-            </AnimationContainer>
-          </div>
         </TimelineEvent.Description>
+        <div>
+          <h3 className="font-bold text-1xl md:text-1xl tracking-tight text-white my-2 text-start">
+            Used Skills
+          </h3>
+          <ShowSkills
+            skills={[
+              'TypeScript',
+              'React',
+              'Next.js',
+              'TanStack Query',
+              'Redux'
+            ]}
+          />
+        </div>
       </TimelineEvent>
 
       <TimelineEvent last>
@@ -69,17 +58,15 @@ export default function CurrentTimeLineExp() {
 
         <TimelineEvent.Description>
           다팔자 프로그램 개발 담당 및 사내 Back-Office 개발 담당을 하였습니다.
-          <div>
-            <h3 className="font-bold text-1xl md:text-1xl tracking-tight text-white my-2 text-start">
-              Used Skills
-            </h3>
-            <AnimationContainer customClassName="flex items-center flex-wrap gap-3 mb-5">
-              <ShowSkills
-                skills={['TypeScript', 'React', 'Redux', 'Electron', 'GraphQL']}
-              />
-            </AnimationContainer>
-          </div>
         </TimelineEvent.Description>
+        <div>
+          <h3 className="font-bold text-1xl md:text-1xl tracking-tight text-white my-2 text-start">
+            Used Skills
+          </h3>
+          <ShowSkills
+            skills={['TypeScript', 'React', 'Redux', 'Electron', 'GraphQL']}
+          />
+        </div>
       </TimelineEvent>
     </Timeline>
   );
