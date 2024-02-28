@@ -8,13 +8,11 @@ npm run dev
 ```
 </br>
 
-## [프로젝트 개요](https://magenta-forest-566.notion.site/04bfd200a6314e58af8ad6e9b80521d1)
-
 </br>
 
 ## 사용한 기술 스택
 - TypeScript
-- Next.js
+- Next.js (app router 사용)
 - tailwind CSS
 - framer-motion
 
@@ -24,14 +22,13 @@ npm run dev
 ## Folder Structure
 
 ```bash                           
-├── components    # 기타 컴포넌트
-├── pages         # 페이지 단위 컴포넌트       
+├── components    # 공용 컴포넌트
+├── app         # App Routing Directory       
 ├── public        # 이미지  
 ├── styles        # 글로벌 CSS   
-├── animation.ts  # 애니메이션 모음
-├── data.ts       # 데이터 모음
+├── hook        # custom hook 모음   
 ├── README.md
-├── type.ts       # 타입 모음        
+├── type       # 타입 모음        
 └── ...
 ```
 
