@@ -14,8 +14,8 @@ export default function CurrentTimeLineExp() {
         <TimelineEvent.Description>
           LG전자 협력사 직원으로 근무하며 프론트엔드 개발자로서 LG ThinQ App
           전반적인 데이터를 관리하는 Back-Office (Admin, Dashboard) 개발 담당을
-          하였습니다. Dashboard 개발을 하며 amchart 를 이용, 데이터 시각화를
-          하였습니다.
+          하였습니다. Dashboard 개발을 하며 amcharts, highcharts 를 이용, 데이터
+          시각화를 하였습니다.
         </TimelineEvent.Description>
         <div>
           <h3 className="font-bold text-1xl md:text-1xl tracking-tight text-white my-2 text-start">
