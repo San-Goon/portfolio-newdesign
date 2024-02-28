@@ -18,7 +18,7 @@ export interface NavItemHeaderAnimation {
 }
 
 export interface NavItemProps {
-  href: string,
+  href: string;
   text: string;
 }
 
@@ -34,6 +34,7 @@ export interface CardProjectProps {
   des: string;
   // category: string[];
   category: string; // FIX THIS
-  repo: string;
-  link: string;
+  repo?: string;
+  link?: string;
+  docs?: string;
 }
