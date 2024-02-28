@@ -11,6 +11,7 @@ import incourserun from '../../public/incourserun.png';
 import stauter from '../../public/stauter.png';
 import dafalza from '../../public/dafalza.jpg';
 import portfolio from '../../public/portfolio.jpg';
+import LG from '../../public/LG.png';
 import { StaticImageData } from 'next/image';
 
 const useStyles = createStyles((theme: any) => ({
@@ -114,8 +115,7 @@ const favProjects = [
     link: 'https://portfolio-newdesign-mdkswfchx-kylecho.vercel.app'
   },
   {
-    image:
-      'https://cdn.sanity.io/images/jqaxrty6/production/9d452c28dc252302b90e6e2408b81ce3ed111957-1440x803.png',
+    image: LG,
     title: 'LG Back-Office'
   },
   {
