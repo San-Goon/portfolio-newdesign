@@ -11,7 +11,7 @@ import incourserun from '../../public/incourserun.png';
 import stauter from '../../public/stauter.png';
 import dafalza from '../../public/dafalza.jpg';
 import portfolio from '../../public/portfolio.jpg';
-import LG from '../../public/LG.png';
+import LG from '../../public/LG.jpeg';
 import { StaticImageData } from 'next/image';
 
 const useStyles = createStyles((theme: any) => ({
