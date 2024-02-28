@@ -40,7 +40,7 @@ const allProjectsInfo = [
     des: '똑똑한개발자에서 근무하며 개발한 개발자와 클라이언트를 매칭시켜주는 플랫폼입니다.',
     category: 'typescript - next - tanstack query - redux',
     link: 'https://stauter.co.kr',
-    docs: ''
+    docs: 'https://magenta-forest-566.notion.site/Stauter-1a005404c12946149f4ffd521659f22f'
   },
   {
     id: '6',
@@ -56,7 +56,7 @@ const allProjectsInfo = [
     des: '라스트일마일에 근무하며 개발했던 통합 상품관리 프로그램입니다.',
     category: 'typescript - react - graphql - electron',
     link: 'https://www.ownerclan.com/V2/info_page/dafalza2.php',
-    docs: ''
+    docs: 'https://magenta-forest-566.notion.site/153f21e6b7de4505b3df259aa204a72b'
   }
 ];
 
