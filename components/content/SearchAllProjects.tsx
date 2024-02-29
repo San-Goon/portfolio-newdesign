@@ -71,7 +71,9 @@ const SearchAllProjects = () => {
 
   const resultSearch: CardProjectProps[] = allProjectsInfo.filter((project) => {
     for (const category of project.category) {
-      return category.includes(projectSearch.toLowerCase());
+      if (category.includes(projectSearch.toLowerCase())) {
+        return true;
+      }
     }
   });
 
