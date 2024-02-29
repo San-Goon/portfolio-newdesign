@@ -13,7 +13,6 @@ const ShowSkills = ({ skills }: { skills: string | string[] }) => {
             size="lg"
             radius="xs"
             variant="filled"
-            className="mr-1"
           >
             {skill}
           </Badge>

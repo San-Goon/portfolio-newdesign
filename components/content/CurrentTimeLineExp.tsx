@@ -21,9 +21,11 @@ export default function CurrentTimeLineExp() {
           <h3 className="font-bold text-1xl md:text-1xl tracking-tight text-white my-2 text-start">
             Used Skills
           </h3>
-          <ShowSkills
-            skills={['TypeScript', 'React', 'Next.js', 'Redux', 'TurboRepo']}
-          />
+          <div className="flex items-center flex-wrap gap-1 mb-1">
+            <ShowSkills
+              skills={['TypeScript', 'React', 'Next.js', 'Redux', 'TurboRepo']}
+            />
+          </div>
         </div>
       </TimelineEvent>
 
@@ -39,15 +41,17 @@ export default function CurrentTimeLineExp() {
           <h3 className="font-bold text-1xl md:text-1xl tracking-tight text-white my-2 text-start">
             Used Skills
           </h3>
-          <ShowSkills
-            skills={[
-              'TypeScript',
-              'React',
-              'Next.js',
-              'TanStack Query',
-              'Redux'
-            ]}
-          />
+          <div className="flex items-center flex-wrap gap-1 mb-1">
+            <ShowSkills
+              skills={[
+                'TypeScript',
+                'React',
+                'Next.js',
+                'TanStack Query',
+                'Redux'
+              ]}
+            />
+          </div>
         </div>
       </TimelineEvent>
 
@@ -63,9 +67,11 @@ export default function CurrentTimeLineExp() {
           <h3 className="font-bold text-1xl md:text-1xl tracking-tight text-white my-2 text-start">
             Used Skills
           </h3>
-          <ShowSkills
-            skills={['TypeScript', 'React', 'Redux', 'Electron', 'GraphQL']}
-          />
+          <div className="flex items-center flex-wrap gap-1 mb-1">
+            <ShowSkills
+              skills={['TypeScript', 'React', 'Redux', 'Electron', 'GraphQL']}
+            />
+          </div>
         </div>
       </TimelineEvent>
     </Timeline>
