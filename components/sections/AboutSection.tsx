@@ -17,7 +17,10 @@ const AboutSection = () => {
         <CurrentTimeLineExp />
         <SkillsSection />
         <ProcessWork />
-        <AnimationContainer customClassName="w-full flex flex-col gap-5">
+        <AnimationContainer
+          customClassName="w-full flex flex-col gap-5"
+          customDelay={0.9}
+        >
           <h2 className="font-bold text-2xl md:text-2xl tracking-tight mb-2 text-white text-start">
             Interests & Goals
           </h2>
