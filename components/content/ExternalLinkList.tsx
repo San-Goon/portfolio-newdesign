@@ -20,7 +20,7 @@ export default function ExternalLinkList() {
           </svg>
           GitHub
         </ExternalLink>
-        <ExternalLink href="www.linkedin.com/in/강훈-조-697372242">
+        <ExternalLink href="https://www.linkedin.com/in/강훈-조-697372242">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
