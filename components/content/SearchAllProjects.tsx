@@ -10,35 +10,41 @@ const allProjectsInfo = [
     id: '1',
     title: '로아검문소 (개발중)',
     des: '온라인게임 "로스트아크" 에서 OCR 기능을 활용하여 자동으로 캐릭터의 정보를 불러올 수 있는 웹사이트입니다.',
-    category: 'typescript - next - tanstack query - zustand - tesseract',
+    category: [
+      'typescript',
+      'next.js',
+      'tanstack query',
+      'zustand',
+      'tesseract'
+    ],
     repo: 'https://github.com/San-Goon/loa-checkpointer'
   },
   {
     id: '2',
     title: 'LG ThinQ App Back-Office',
     des: '(주)레이슬론에서 근무하며 개발한 관리자 및 대시보드 페이지 입니다.',
-    category: 'typescript - next - redux - turborepo',
+    category: ['typescript', 'next.js', 'redux', 'turborepo'],
     docs: ''
   },
   {
     id: '3',
     title: '개인 포트폴리오',
     des: '구직을위한 개인 포트폴리오 입니다.',
-    category: 'typescript - next',
+    category: ['typescript', 'next.js'],
     repo: 'https://github.com/San-Goon/portfolio-newdesign'
   },
   {
     id: '4',
     title: '배달 앱',
     des: 'react-native 학습을 위해 개발했던 배달 어플리케이션 입니다.',
-    category: 'typescript - react native',
+    category: ['typescript', 'react native'],
     repo: 'https://github.com/San-Goon/food-delivery-app'
   },
   {
     id: '5',
     title: 'Stauter',
     des: '똑똑한개발자에서 근무하며 개발한 개발자와 클라이언트를 매칭시켜주는 플랫폼입니다.',
-    category: 'typescript - next - tanstack query - redux',
+    category: ['typescript', 'next.js', 'tanstack query', 'redux'],
     link: 'https://stauter.co.kr',
     docs: 'https://magenta-forest-566.notion.site/Stauter-1a005404c12946149f4ffd521659f22f'
   },
@@ -46,7 +52,7 @@ const allProjectsInfo = [
     id: '6',
     title: 'INCOURSE',
     des: '라이브러리 학습을 위해 개발했던 폐쇄몰 사이트입니다.',
-    category: 'typescript - next - tanstack query - redux',
+    category: ['typescript', 'next.js', 'tanstack query', 'redux'],
     repo: 'https://github.com/San-Goon/e-commerce-project',
     link: 'https://fastcampas-5-commerce-fe-nwm6-kylecho.vercel.app/login'
   },
@@ -54,7 +60,7 @@ const allProjectsInfo = [
     id: '7',
     title: '다팔자',
     des: '라스트일마일에 근무하며 개발했던 통합 상품관리 프로그램입니다.',
-    category: 'typescript - react - graphql - electron',
+    category: ['typescript', 'react', 'graphql', 'electron'],
     link: 'https://www.ownerclan.com/V2/info_page/dafalza2.php',
     docs: 'https://magenta-forest-566.notion.site/153f21e6b7de4505b3df259aa204a72b'
   }
@@ -63,9 +69,11 @@ const allProjectsInfo = [
 const SearchAllProjects = () => {
   const [projectSearch, setProjectSearch] = useState<string>('');
 
-  const resultSearch: CardProjectProps[] = allProjectsInfo.filter((project) =>
-    project.category.includes(projectSearch.toLowerCase())
-  );
+  const resultSearch: CardProjectProps[] = allProjectsInfo.filter((project) => {
+    for (const category of project.category) {
+      return category.includes(projectSearch.toLowerCase());
+    }
+  });
 
   return (
     <>
