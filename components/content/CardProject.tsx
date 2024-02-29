@@ -19,7 +19,7 @@ const CardProject = ({
         <p className="text-base text-gray-400">{des}</p>
 
         <div className="w-full flex justify-between items-start flex-wrap flex-col lg:flex-row gap-5">
-          <div className="flex justify-center items-start gap-3">
+          <div className="flex flex-wrap items-start gap-3">
             <ShowSkills skills={category} />
           </div>
 
@@ -84,14 +84,14 @@ const CardProject = ({
                   <path
                     d="M8 12H16"
                     stroke="#1C274C"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
                   />
                   <path
                     d="M8 8H16"
                     stroke="#1C274C"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
                   />
                   <path
                     d="M8 16H13"
