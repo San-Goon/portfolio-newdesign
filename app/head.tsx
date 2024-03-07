@@ -26,11 +26,11 @@ const Head = () => {
       <meta name="keywords" content={meta.keywords} />
       <meta
         property="og:url"
-        content={`https://portfolio-newdesign-mdkswfchx-kylecho.vercel.app${pathname}`}
+        content={`https://latest-portfolio-three.vercel.app/${pathname}`}
       />
       <link
         rel="canonical"
-        href={`https://portfolio-newdesign-mdkswfchx-kylecho.vercel.app${pathname}`}
+        href={`https://latest-portfolio-three.vercel.app/${pathname}`}
       />
       <link rel="me" href="mailto:joganghun06@gmail.com" />
       <meta property="og:type" content={meta.type} />
