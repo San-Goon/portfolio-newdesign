@@ -24,7 +24,7 @@ const allProjectsInfo = [
     title: 'LG ThinQ App Back-Office',
     des: '(주)레이슬론에서 근무하며 개발한 관리자 및 대시보드 페이지 입니다.',
     category: ['typescript', 'next.js', 'redux', 'turborepo'],
-    docs: ''
+    docs: 'https://magenta-forest-566.notion.site/LG-Back-Office-93873b3cdf6241068ca88b6a30805dd6?pvs=4'
   },
   {
     id: '3',
