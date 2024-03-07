@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/'
     },
-    sitemap: 'https://latest-portfolio-three.vercel.app/sitemap.xml'
+    sitemap: 'https://kylecho.vercel.app/sitemap.xml'
   };
 }
