@@ -34,6 +34,10 @@ const Head = () => {
       <meta property="og:site_name" content="Kyle Cho" />
       <meta property="og:description" content={meta.description} />
       <meta property="og:title" content={meta.title} />
+      <meta
+        name="google-site-verification"
+        content="FGvl_nkJDCpREJlX5UU5rwdKhAnvXH4GfJKlY9pJiFk"
+      />
     </>
   );
 };
