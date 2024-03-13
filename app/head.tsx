@@ -36,7 +36,7 @@ const Head = () => {
       <meta property="og:title" content={meta.title} />
       <meta
         name="google-site-verification"
-        content="FGvl_nkJDCpREJlX5UU5rwdKhAnvXH4GfJKlY9pJiFk"
+        content="IO8qsepjZRvC7Tz1JXVu6-neMi3rYARGSU4wFyj6Qck"
       />
     </>
   );

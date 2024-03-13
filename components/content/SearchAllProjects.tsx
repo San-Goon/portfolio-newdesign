@@ -8,7 +8,7 @@ import { CardProjectProps } from '@/types';
 const allProjectsInfo = [
   {
     id: '1',
-    title: '로아검문소 (개발중)',
+    title: '로아검문소 (Beta)',
     des: '온라인게임 "로스트아크" 에서 OCR 기능을 활용하여 자동으로 캐릭터의 정보를 불러올 수 있는 웹사이트입니다.',
     category: [
       'typescript',
@@ -17,6 +17,7 @@ const allProjectsInfo = [
       'zustand',
       'tesseract'
     ],
+    link: 'https://loa-checkpoint.vercel.app',
     repo: 'https://github.com/San-Goon/loa-checkpointer'
   },
   {
