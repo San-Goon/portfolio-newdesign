@@ -8,7 +8,7 @@ export default function CurrentTimeLineExp() {
     <Timeline>
       <TimelineEvent active>
         <TimelineEvent.Title>
-          (주)레이슬론 | 대리 | dec. 2022 - Currently
+          (주)레이슬론 | 대리 | 2022.12. - Currently
         </TimelineEvent.Title>
 
         <TimelineEvent.Description>
@@ -31,7 +31,7 @@ export default function CurrentTimeLineExp() {
 
       <TimelineEvent>
         <TimelineEvent.Title>
-          똑똑한개발자 | 인턴 | sep. 2022 - nov. 2022
+          똑똑한개발자 | 인턴 | 2022.09. - 2022.11.
         </TimelineEvent.Title>
 
         <TimelineEvent.Description>
@@ -57,7 +57,7 @@ export default function CurrentTimeLineExp() {
 
       <TimelineEvent last>
         <TimelineEvent.Title>
-          (주)라스트일마일 | 사원 | nov. 2021 - jul. 2022
+          (주)라스트일마일 | 사원 | 2022.11. - 2022.07.
         </TimelineEvent.Title>
 
         <TimelineEvent.Description>
