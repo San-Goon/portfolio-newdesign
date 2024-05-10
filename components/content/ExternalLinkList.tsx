@@ -36,7 +36,7 @@ export default function ExternalLinkList() {
           </svg>
           LinkedIn
         </ExternalLink>
-        <ExternalLink href="https://drive.google.com/file/d/1OAPUW5fkg8hXFDYr1CTWlOpyIAkHI-r2/view?usp=sharing">
+        <ExternalLink href="https://drive.google.com/file/d/10nYnlcTxd_yzF5lBaM1oYNLlUrTVJksS/view?usp=drive_link">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"

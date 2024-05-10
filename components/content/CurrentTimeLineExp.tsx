@@ -8,7 +8,7 @@ export default function CurrentTimeLineExp() {
     <Timeline>
       <TimelineEvent active>
         <TimelineEvent.Title>
-          (주)레이슬론 | 대리 | dec. 2022 - Currently
+          (주)레이슬론 | 대리 | dec. 2022 - may. 2024
         </TimelineEvent.Title>
 
         <TimelineEvent.Description>
