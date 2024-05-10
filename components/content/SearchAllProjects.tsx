@@ -8,7 +8,7 @@ import { CardProjectProps } from '@/types';
 const allProjectsInfo = [
   {
     id: '1',
-    title: '로아검문소 (개발중)',
+    title: '로아검문소 (Beta)',
     des: '온라인게임 "로스트아크" 에서 OCR 기능을 활용하여 자동으로 캐릭터의 정보를 불러올 수 있는 웹사이트입니다.',
     category: [
       'typescript',
@@ -17,6 +17,7 @@ const allProjectsInfo = [
       'zustand',
       'tesseract'
     ],
+    link: 'https://loa-checkpoint.vercel.app',
     repo: 'https://github.com/San-Goon/loa-checkpointer'
   },
   {
@@ -24,7 +25,7 @@ const allProjectsInfo = [
     title: 'LG ThinQ App Back-Office',
     des: '(주)레이슬론에서 근무하며 개발한 관리자 및 대시보드 페이지 입니다.',
     category: ['typescript', 'next.js', 'redux', 'turborepo'],
-    docs: ''
+    docs: 'https://magenta-forest-566.notion.site/LG-Back-Office-93873b3cdf6241068ca88b6a30805dd6?pvs=4'
   },
   {
     id: '3',

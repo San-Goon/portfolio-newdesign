@@ -112,7 +112,7 @@ const favProjects = [
     image: portfolio,
     title: 'Portfolio',
     repo: 'https://github.com/San-Goon/portfolio-newdesign',
-    link: 'https://portfolio-newdesign-mdkswfchx-kylecho.vercel.app'
+    link: 'https://kylecho.vercel.app'
   },
   {
     image: LG,
