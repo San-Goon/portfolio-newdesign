@@ -57,7 +57,7 @@ export default function CurrentTimeLineExp() {
 
       <TimelineEvent last>
         <TimelineEvent.Title>
-          (주)라스트일마일 | 사원 | 2022.11. - 2022.07.
+          (주)라스트일마일 | 사원 | 2021.11. - 2022.07.
         </TimelineEvent.Title>
 
         <TimelineEvent.Description>
